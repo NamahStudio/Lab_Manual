@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    tools:context=".Table_Layout"
+    android:padding="12dp"
+    android:layout_gravity="center"
+    android:background="#ACABAB"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Integer (1,2,33,4)"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Float (1.34,4.13,123.4,0.1)"
+        android:textSize="20dp"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="String ('om','kokate','a')"
+        android:textSize="20dp"
+        android:layout_marginTop="62dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Boolean (True , False)"
+        android:textSize="20dp"
+        android:layout_marginTop="92dp"/>
+
+
+
+
+
+
+</FrameLayout>
